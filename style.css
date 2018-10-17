@@ -63,7 +63,7 @@ table {
 }
 
 .container {
-  width: 600px;
+  width: 1600px;
   margin: 0 auto;
 }
 
@@ -119,4 +119,38 @@ table {
 
 .social {
   font-size: 30px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 125px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #394046;
+}
+#page-content {
+  margin-left: 150px;
+}
+
+#sidebar a {
+  color: #7A8187;
+  font-size: 25px;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+
+.description {
+  margin: 25px;
 }
