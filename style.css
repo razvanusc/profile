@@ -1,0 +1,122 @@
+body {
+  background-color: #DADDD8;
+  font-family: helvetica;
+  font-size: 15px;
+  color: #7D7D7D;
+  line-height: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #7E7E7E;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.btn-red {
+  text-decoration: none;
+  color: white;
+  background-color: #CD5E5A;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-red:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #E54B4B;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a {
+  color: #7E7E7E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CD5E5A;
+  text-decoration: none;
+}
+
+.name {
+  color: #CD5E5A;
+  font-size: 25px;
+}
+
+.description {
+  font-style: italic;
+  font-size: 15px;
+}
+
+td {
+  font-size: 20px;
+}
+
+table {
+  border-spacing: 1em;
+}
+
+.body {
+  font-size: 15px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: auto;
+}
+
+.list-inline{
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.job {
+  font-size: 20px;
+}
+
+.about-par{
+  font-size: 15px;
+}
+
+.about-title{
+  font-size: 22px;
+}
+
+.btn-bottom {
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.btn-bottom:hover {
+  color: #CD5E5A;
+  opacity: 1;
+}
+
+.social {
+  font-size: 30px;
+}
